@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container{
+background-color: black;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.generator{
+background-color: white;
+border-radius: 20px;
+padding: 20px;
+border: 5px solid orangered;
+box-shadow: 10px 10px 20px rgba(255, 69, 0, 0.4),   /* Right and down shadow (light) */
+    -10px -10px 20px rgba(255, 69, 0, 0.3),  /* Left and up shadow (darker) */
+    0px 10px 30px rgba(255, 69, 0, 0.2),    /* Soft shadow below */
+    0px -10px 20px rgba(255, 69, 0, 0.2);   /* Soft shadow above */
+/* Very large, intense shadow */
+
+}
+ button{
+padding: 5px 10px;
+border-radius: 20px;
+border: 2px solid orangered;
+background-color: whitesmoke;
+color: orangered;
+margin-top: 20px;
+font-size: 25px;
+box-shadow: 10px 10px 20px rgba(135, 206, 235, 0.4),   /* Right and down shadow (light) */
+    -10px -10px 20px rgba(135, 206, 235, 0.3),  /* Left and up shadow (darker) */
+    0px 10px 30px rgba(135, 206, 235, 0.2),    /* Soft shadow below */
+    0px -10px 20px rgba(135, 206, 235, 0.2);   /* Soft shadow above */
+
+
+}
+.generator p{
+background-color: rgba(255, 68, 0, 0.562);
+font-family: "Italianno", cursive;
+
+border-radius: 20px;
+font-weight: 900;
+font-size: 35px;
+
+}
+h1{
+margin-bottom: 20px;
+text-align: center;
+color: orangered;
+}
+.button{
+display: flex;
+justify-content: center;
+}
